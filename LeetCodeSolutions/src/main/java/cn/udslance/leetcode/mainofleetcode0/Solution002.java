@@ -1,0 +1,59 @@
+package cn.udslance.leetcode.mainofleetcode0;
+
+
+import cn.udslance.beans.ListNode;
+import cn.udslance.mytools.Generator;
+import org.junit.jupiter.api.Test;
+
+/**
+ * 两数相加
+ * https://leetcode-cn.com/problems/add-two-numbers/
+ * @author H
+ * @create 2021-08-23 9:21
+ */
+public class Solution002 {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        // 结果链表
+        ListNode head = new ListNode(0);
+        ListNode th = head;
+        // 两个指针同时遍历两个链表
+        ListNode tmp1 = l1;
+        ListNode tmp2 = l2;
+        int val1 = 0;
+        int val2 = 0;
+        int val3;
+        // 判断是否要进位
+        int ten = 0;
+        while (tmp1 != null || tmp2 != null) {
+            val1 = tmp1 == null ? 0 : tmp1.val;
+            val2 = tmp2 == null ? 0 : tmp2.val;
+            val3 = (val1 + val2 + ten) % 10;
+            // 判断是否要下一轮是否进位
+            ten = (val1 + val2 + ten) / 10;
+            // 在head后面接上
+            th.next = new ListNode(val3);
+            th = th.next;
+            if (tmp1 != null) {
+                tmp1 = tmp1.next;
+            }
+            if (tmp2 != null) {
+                tmp2 = tmp2.next;
+            }
+        }
+        //如果遍历完最后一个发现还需要进位，则还需要在后面接一个1
+        if (ten == 1) {
+            th.next = new ListNode(1);
+        }
+        return head.next;
+    }
+    @Test
+    public void test() {
+        ListNode lA = Generator.generateNode(new int[]{9,9,9,9,9,9,9});
+        ListNode lB = Generator.generateNode(new int[]{9,9,9,9});
+        long startTime = System.currentTimeMillis();
+        //do something
+        addTwoNumbers(lA, lB);
+        long endTime = System.currentTimeMillis();
+        System.out.println("程序运行时间：" + (endTime - startTime) + "ms");
+    }
+}
