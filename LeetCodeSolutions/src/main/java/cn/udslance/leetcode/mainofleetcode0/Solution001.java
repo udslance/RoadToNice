@@ -14,8 +14,6 @@ import java.util.HashMap;
 public class Solution001 {
 
     public int[] twoSum(int[] nums, int target) {
-        int num1 = 0;
-        int num2 = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(target - nums[i])) {
@@ -23,7 +21,6 @@ public class Solution001 {
             }
             map.put(nums[i], i);
         }
-
         return null;
     }
 
@@ -34,9 +31,5 @@ public class Solution001 {
         System.out.println(Arrays.toString(twoSum(new int[]{3,3}, 6)));
         long endTime = System.currentTimeMillis();
         System.out.println("程序运行时间：" + (endTime - startTime) + "ms");
-    }
-
-    public static void main(String[] args) {
-        System.out.println("hello world");
     }
 }

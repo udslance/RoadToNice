@@ -21,14 +21,12 @@ public class Solution002 {
         ListNode tmp2 = l2;
         int val1 = 0;
         int val2 = 0;
-        int val3;
-        // 判断是否要进位
+        int val3 = 0;
         int ten = 0;
         while (tmp1 != null || tmp2 != null) {
             val1 = tmp1 == null ? 0 : tmp1.val;
             val2 = tmp2 == null ? 0 : tmp2.val;
             val3 = (val1 + val2 + ten) % 10;
-            // 判断是否要下一轮是否进位
             ten = (val1 + val2 + ten) / 10;
             // 在head后面接上
             th.next = new ListNode(val3);
@@ -40,7 +38,7 @@ public class Solution002 {
                 tmp2 = tmp2.next;
             }
         }
-        //如果遍历完最后一个发现还需要进位，则还需要在后面接一个1
+
         if (ten == 1) {
             th.next = new ListNode(1);
         }
@@ -48,8 +46,8 @@ public class Solution002 {
     }
     @Test
     public void test() {
-        ListNode lA = Generator.generateNode(new int[]{9,9,9,9,9,9,9});
-        ListNode lB = Generator.generateNode(new int[]{9,9,9,9});
+        ListNode lA = Generator.generateNode(new int[]{2,4,3});
+        ListNode lB = Generator.generateNode(new int[]{5,6,4});
         long startTime = System.currentTimeMillis();
         //do something
         addTwoNumbers(lA, lB);
