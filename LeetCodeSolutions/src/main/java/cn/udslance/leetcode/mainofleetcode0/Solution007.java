@@ -6,27 +6,21 @@ package cn.udslance.leetcode.mainofleetcode0;
  */
 public class Solution007 {
     public int reverse(int x) {
-        String str = x + "";
-
-        //用来标记正负
-        int helper1 = 1;
-
-        if (str.charAt(0) == '-') {
-            helper1 = -1;
-        }
-
-        StringBuilder stringBuilder = new StringBuilder();
-
-        for (int i = str.length() - 1; i >= 0; i--) {
-            if (str.charAt(i) == '+' || str.charAt(i) == '-') {
-                break;
+        int res = 0;
+        while(x!=0) {
+            //每次取末尾数字
+            int tmp = x%10;
+            //判断是否 大于 最大32位整数
+            if (res>214748364 || (res==214748364 && tmp>7)) {
+                return 0;
             }
-
-            stringBuilder.append(str.charAt(i));
+            //判断是否 小于 最小32位整数
+            if (res<-214748364 || (res==-214748364 && tmp<-8)) {
+                return 0;
+            }
+            res = res*10 + tmp;
+            x /= 10;
         }
-
-        String str1 = stringBuilder.toString();
-
-        return helper1 * Integer.parseInt(str1);
+        return res;
     }
 }

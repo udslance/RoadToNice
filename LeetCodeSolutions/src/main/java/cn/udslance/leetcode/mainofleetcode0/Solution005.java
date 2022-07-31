@@ -13,37 +13,44 @@ public class Solution005 {
     }
 
     public String longestPalindrome(String s) {
-        //特殊情况
-        if (s.length() == 1) {
+        // 特殊情况
+        if (s.length() < 2) {
             return s;
         }
 
-        String[] dp = new String[s.length()];
+        //构建表格dp[i][j]表示s[i]->s[j]之间是否为回文串
+        int length = s.length();
+        boolean[][] dp = new boolean[length][length];
 
-        dp[0] = s.substring(0, 1);
-
-        double symmetryAxis = 0.5;
-
-        for (int i = 1; i < s.length(); i++) {
-            //(1)i为右侧点，找左侧点
-
-            //情况2：不对称，则移动对称轴，如果一直不对称，会移动到 i 处。
-            while (2 * symmetryAxis - i < 0 || s.charAt(i) != s.charAt((int) (2 * symmetryAxis - i))) {
-                symmetryAxis += 0.5;
-            }
-
-            int left = (int) (2 * symmetryAxis - i);
-
-            String temp = s.substring(left, i + 1);
-
-            if (temp.length() >= dp[i - 1].length()) {
-                dp[i] = temp;
-            } else {
-                dp[i] = dp[i - 1];
-            }
-
+        //初始化表格
+        for (int i = 0; i < length; i++) {
+            dp[i][i] = true;
         }
 
-        return dp[s.length() - 1];
+        int maxLen = 1;
+        int begin = 0;
+
+        //动态规划
+        for (int j = 1; j < length; j++) {
+            for (int i = 0; i < j; i++) {
+                {
+                    if (s.charAt(i) != s.charAt(j)) {
+                        dp[i][j] = false;
+                    } else {
+                        if (j - i < 3) {
+                            dp[i][j] = true;
+                        } else {
+                            dp[i][j] = dp[i + 1][j - 1];
+                        }
+                    }
+
+                    if (dp[i][j] && j - i + 1 > maxLen) {
+                        maxLen = j - i + 1;
+                        begin = i;
+                    }
+                }
+            }
+        }
+        return s.substring(begin, begin + maxLen);
     }
 }
