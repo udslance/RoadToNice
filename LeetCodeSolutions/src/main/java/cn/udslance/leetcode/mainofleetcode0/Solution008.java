@@ -1,52 +1,64 @@
 package cn.udslance.leetcode.mainofleetcode0;
 
+import org.apache.log4j.Logger;
+import org.junit.jupiter.api.Test;
+
 /**
+ * @Title: 字符串转换整数 (atoi)
+ * @Difficulty: middle
+ * @Link: <a href="https://leetcode.cn/problems/string-to-integer-atoi/">...</a>
  * @author H
- * @create 2021-06-16 8:57
+ * @create 2021-08-23 9:21
+ *
  */
 public class Solution008 {
-    public static void main(String[] args) {
-        Solution008 solution008 = new Solution008();
+    static Logger logger = Logger.getLogger("");
 
-        System.out.println(solution008.myAtoi("-2147483649"));
-
+    @Test
+    public void test() {
+        long startTime = System.currentTimeMillis();
+        //do something
+        int res = myAtoi("4193 with words");
+        logger.info("结果：" + res);
+        long endTime = System.currentTimeMillis();
+        logger.info("程序运行时间：" + (endTime - startTime) + " ms");
     }
 
     public int myAtoi(String s) {
-
-
-        //读入字符串并丢弃无用的前导空格
-        char[] chars = s.trim().toCharArray();
-
-        if (chars.length == 0) {
+        s = s.trim();
+        if(s.length() == 0){
             return 0;
         }
-
-        //用flag来标记正负
-        //用start来标记遍历起点，默认有正负号，所以默认值为1
-        int flag = 1;
-        int start = 1;
-        if (chars[0] == '-') {
-            flag = -1;
-        } else if (chars[0] != '+') {
-            start = 0;
-        }
-
         int res = 0;
+        // 去除前导空格
 
-        while (start < chars.length && chars[start] >= '0' && chars[start] <= '9') {
-            int cur = chars[start++] - '0';
-
-            if (res * flag > 214748364 || (res * flag == 214748364 && cur > 7)) {
+        // 检查下一个字符（假设还未到字符末尾）为正还是负号，读取该字符（如果有）。
+        // 确定最终结果是负数还是正数。 如果两者都不存在，则假定结果为正。
+        int isPositive = 1;
+        int start = 0;
+        if (s.charAt(0) == '-') {
+            isPositive = -1;
+            start = 1;
+        } else if (s.charAt(0) == '+') {
+            start = 1;
+        }
+        //读入下一个字符，直到到达下一个非数字字符或到达输入的结尾。字符串的其余部分将被忽略。
+        for (int i = start; i < s.length(); i++) {
+            if (s.charAt(i) < 48 || s.charAt(i) > 57) {
+                break;
+            }
+            int cur = s.charAt(i) - '0';
+            if (res * isPositive > 214748364 || (res * isPositive == 214748364 && cur > 7)) {
                 return Integer.MAX_VALUE;
-            } else if (res * flag < -214748364 || (res * flag == -214748364 && cur > 7)) {
+            } else if (res * isPositive < -214748364 || (res * isPositive == -214748364 && cur > 7)) {
                 return Integer.MIN_VALUE;
             }
-
             res = res * 10 + cur;
         }
 
-        return res * flag;
+        return res * isPositive;
     }
+
+
 
 }

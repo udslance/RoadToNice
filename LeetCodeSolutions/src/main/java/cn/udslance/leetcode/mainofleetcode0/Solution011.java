@@ -1,8 +1,11 @@
 package cn.udslance.leetcode.mainofleetcode0;
 
 /**
+ * @Title: 盛水最多的容器
+ * @Difficulty: middle
+ * @Link: <a href="https://leetcode.cn/problems/container-with-most-water/submissions/">...</a>
  * @author H
- * @create 2021-06-16 9:41
+ *
  */
 public class Solution011 {
     public static void main(String[] args) {
@@ -14,7 +17,9 @@ public class Solution011 {
 
     }
 
+
     public int maxArea(int[] height) {
+        // 思路：左右双指针，每次将"短板"向内移，以期待容积增大
         int i = 0, j = height.length - 1, res = 0;
         while(i < j){
             res = height[i] < height[j] ?

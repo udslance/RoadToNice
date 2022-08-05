@@ -2,7 +2,6 @@ package cn.udslance.leetcode.mainofleetcode0;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @Title: Z 字形变换
@@ -12,7 +11,7 @@ import java.util.List;
  * @create 2021-08-23 9:21
  *
  */
-public class Solution06 {
+public class Solution006 {
 
     public String convert(String s, int numRows) {
         if (numRows == 1) {
