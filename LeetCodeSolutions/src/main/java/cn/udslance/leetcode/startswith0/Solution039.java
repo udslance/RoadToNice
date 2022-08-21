@@ -10,26 +10,18 @@ import java.util.List;
  * @create 2021-06-29 23:14
  */
 public class Solution039 {
-    
     public void test() {
         List<List<Integer>> res = combinationSum(new int[]{2, 3,6,7}, 7);
-
         for (List<Integer> re : res) {
             System.out.println(re);
         }
 
     }
 
-
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
-
-
-
         dfs(candidates, 0, target, res, path);
-
-
         return res;
     }
 
@@ -44,7 +36,6 @@ public class Solution039 {
             return;
         }
 
-
         // 重点理解这里从 begin 开始搜索的语意
         for (int i = start; i < candidates.length; i++) {
             path.add(candidates[i]);
@@ -53,6 +44,5 @@ public class Solution039 {
             // 状态重置
             path.remove(path.size() - 1);
         }
-
     }
 }

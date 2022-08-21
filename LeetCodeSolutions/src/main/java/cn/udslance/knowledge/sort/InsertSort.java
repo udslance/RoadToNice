@@ -1,5 +1,9 @@
 package cn.udslance.knowledge.sort;
 
+import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
 /**
  * @program: RoadToNice
  * @description: 插入排序
@@ -7,6 +11,13 @@ package cn.udslance.knowledge.sort;
  * @create: 2022-08-14 22:40
  **/
 public class InsertSort {
+
+    @Test
+    public void test() {
+        int[] arr = new int[]{1, 5, 2, 4, 5, 6, 2, 3};
+        insertSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
     public static void insertSort(int[] arr) {
         if (arr == null || arr.length < 2) {
             return;
