@@ -11,7 +11,6 @@ public class Solution148 {
         if (head == null || head.next == null) {
             return head;
         }
-
         //利用快慢指针对半拆分链表
         ListNode fast = head.next, slow = head;
         while (fast != null && fast.next != null) {

@@ -12,8 +12,6 @@ import java.util.List;
  * @create 2021-08-10 20:52
  */
 public class Solution220 {
-
-
     public void test() {
         int[] nums = new int[]{1, 2, 1, 1};
 
@@ -35,11 +33,8 @@ public class Solution220 {
         //t 为值差值
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
-
         dfs(nums, 0, k, t, path, res);
-
         return !res.isEmpty();
-
     }
 
     private void dfs(int[] nums, int start, int k, int t, List<Integer> path, List<List<Integer>> res) {
@@ -49,13 +44,9 @@ public class Solution220 {
             }
             return;
         }
-
-        for (int i = start; i < start + k && i < nums.length; i++) {
-
+        for (int i = start; i <= start + k && i < nums.length; i++) {
             path.add(nums[i]);
-
             dfs(nums, i + 1, k, t, path, res);
-
             path.remove(path.size() - 1);
         }
     }

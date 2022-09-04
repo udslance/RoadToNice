@@ -35,7 +35,6 @@ public class Code03_Comparator {
         public int compare(Student o1, Student o2) {
             return o1.id - o2.id;
         }
-
     }
 
     public static class IdDescendingComparator implements Comparator<Student> {

@@ -1,6 +1,10 @@
 package cn.udslance.leetcode.startswith2;
 
+import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -9,30 +13,30 @@ import java.util.Set;
  */
 public class Solution217 {
     public boolean containsDuplicate(int[] nums) {
-
         Set<Integer> set = new HashSet<>();
-
         for (int num : nums) {
+            if (set.contains(num)) {
+                return true;
+            }
             set.add(num);
         }
-
-        return set.size() == nums.length;
+        return false;
     }
 
     public boolean containsNearbyDuplicate(int[] nums, int k) {
-
-        for (int i = 0; i < nums.length -1; i++) {
-
-            for (int j = i + 1;j < i + k + 1 && j < nums.length; j++) {
-                if (nums[j] - nums[i] == 0 && j - i <= k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                int lastIndex = map.get(nums[i]);
+                if (i - lastIndex <= k) {
                     return true;
+                } else {
+                    map.put(nums[i], i);
                 }
+            } else {
+                map.put(nums[i], i);
             }
-
         }
-
         return false;
-
     }
-
 }
