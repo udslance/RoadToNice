@@ -1,7 +1,5 @@
 package cn.udslance.interview.oppo;
 
-
-
 import java.util.Arrays;
 
 /**

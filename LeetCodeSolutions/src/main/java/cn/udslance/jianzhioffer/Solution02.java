@@ -1,7 +1,5 @@
 package cn.udslance.jianzhioffer;
 
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +8,7 @@ import java.util.List;
  * @author H
  * @create 2021-05-08 14:22
  */
-public class Solution02 {
+class Solution02 {
 
     public void test() {
         System.out.println(permutation("abc"));

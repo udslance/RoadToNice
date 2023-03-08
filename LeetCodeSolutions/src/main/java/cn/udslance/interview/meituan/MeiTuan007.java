@@ -1,7 +1,5 @@
 package cn.udslance.interview.meituan;
 
-
-
 import java.util.Scanner;
 
 /**

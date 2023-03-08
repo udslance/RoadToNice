@@ -8,7 +8,7 @@ import java.util.Map;
  * @author H
  * @create 2021-05-10 9:28
  */
-public class Solution05 {
+class Solution05 {
 
     public static void main(String[] args) {
 

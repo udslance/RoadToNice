@@ -1,7 +1,5 @@
 package cn.udslance.interview.huawei;
 
-
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -11,7 +9,7 @@ import java.util.Set;
  * @author H
  * @create 2021-08-23 9:21
  */
-public class Solution001 {
+class Solution001 {
     //输入字符串， 若干单词
     //找字符串子串刚好把这些单词用完，所有单词都用一遍，顺序没有要求，但不能包括无关单词
     //1. 单词长度都相同

@@ -2,12 +2,11 @@ package cn.udslance.interview.xiecheng;
 
 import cn.udslance.beans.TreeNode;
 
-
 /**
  * @author H
  * @create 2021-08-23 9:21
  */
-public class Solution002 {
+class Solution002 {
     
     public void test() {
         long startTime = System.currentTimeMillis();

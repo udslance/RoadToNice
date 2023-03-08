@@ -1,12 +1,10 @@
 package cn.udslance.jianzhioffer;
 
-
-
 /**
  * @author H
  * @create 2021-05-21 10:31
  */
-public class Solution14 {
+class Solution14 {
 
 
     

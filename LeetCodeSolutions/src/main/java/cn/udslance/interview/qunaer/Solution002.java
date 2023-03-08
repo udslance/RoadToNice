@@ -1,7 +1,5 @@
 package cn.udslance.interview.qunaer;
 
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +8,7 @@ import java.util.List;
  * @author H
  * @create 2021-08-23 9:21
  */
-public class Solution002 {
+class Solution002 {
     public int solution(int[] arr) {
         //首先对数组进行排序
         Arrays.sort(arr);

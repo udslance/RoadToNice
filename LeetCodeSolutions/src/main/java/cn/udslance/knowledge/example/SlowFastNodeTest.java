@@ -1,7 +1,7 @@
 package cn.udslance.knowledge.example;
 
 import cn.udslance.beans.ListNode;
-import cn.udslance.mytools.Generator;
+import cn.udslance.mytools.LeetCodeUtils;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
@@ -12,12 +12,12 @@ import org.junit.jupiter.api.Test;
  * @create: 2022-08-26 22:41
  **/
 public class SlowFastNodeTest {
-    ListNode listNode12 = Generator.generateNode(new int[]{1, 2});
-    ListNode listNode13 = Generator.generateNode(new int[]{1, 2, 3});
-    ListNode listNode14 = Generator.generateNode(new int[]{1, 2, 3, 4});
-    ListNode listNode15 = Generator.generateNode(new int[]{1, 2, 3, 4, 5});
+    ListNode listNode12 = LeetCodeUtils.makeListNodeByArr(new int[]{1, 2});
+    ListNode listNode13 = LeetCodeUtils.makeListNodeByArr(new int[]{1, 2, 3});
+    ListNode listNode14 = LeetCodeUtils.makeListNodeByArr(new int[]{1, 2, 3, 4});
+    ListNode listNode15 = LeetCodeUtils.makeListNodeByArr(new int[]{1, 2, 3, 4, 5});
 
-    ListNode listNode16 = Generator.generateNode(new int[]{1, 2, 3, 4, 5, 6});
+    ListNode listNode16 = LeetCodeUtils.makeListNodeByArr(new int[]{1, 2, 3, 4, 5, 6});
 
 
     private static final Logger LOGGER = Logger.getLogger("");

@@ -1,12 +1,10 @@
 package cn.udslance.jianzhioffer;
 
-
-
 /**
  * @author H
  * @create 2021-05-18 10:31
  */
-public class Solution12 {
+class Solution12 {
     public int maxProfit1(int[] prices) {
 
         int max = 0;

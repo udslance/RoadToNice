@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author H
  * @create 2021-05-10 9:51
  */
-public class Solution06 {
+class Solution06 {
     public static void main(String[] args) {
         Solution06 solution06 = new Solution06();
 

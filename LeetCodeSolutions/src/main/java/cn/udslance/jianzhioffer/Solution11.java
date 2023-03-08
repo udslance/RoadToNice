@@ -1,7 +1,5 @@
 package cn.udslance.jianzhioffer;
 
-
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +11,7 @@ import java.util.Set;
  * @author H
  * @create 2021-05-18 9:12
  */
-public class Solution11 {
+class Solution11 {
 
 
     

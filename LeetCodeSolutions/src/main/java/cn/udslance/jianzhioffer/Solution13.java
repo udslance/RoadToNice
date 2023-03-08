@@ -1,14 +1,12 @@
 package cn.udslance.jianzhioffer;
 
-
-
 import java.util.Arrays;
 
 /**
  * @author H
  * @create 2021-05-18 14:41
  */
-public class Solution13 {
+class Solution13 {
 
     public void test() {
         int[] ints = {1, 2, 3, 4, 5};

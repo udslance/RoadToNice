@@ -8,7 +8,7 @@ import java.util.List;
  * @author H
  * @create 2021-09-14 19:16
  */
-public class Solution001 {
+class Solution001 {
 
     /* Write Code Here */
 

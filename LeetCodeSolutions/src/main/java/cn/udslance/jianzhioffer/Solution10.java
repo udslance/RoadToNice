@@ -1,12 +1,10 @@
 package cn.udslance.jianzhioffer;
 
-
-
 /**
  * @author H
  * @create 2021-05-17 9:42
  */
-public class Solution10 {
+class Solution10 {
 
     
     public void test() {

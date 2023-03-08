@@ -1,14 +1,12 @@
 package cn.udslance.jianzhioffer;
 
-
-
 import java.util.Arrays;
 
 /**
  * @author H
  * @create 2021-05-24 16:45
  */
-public class Solution15 {
+class Solution15 {
 
     
     public void test() {

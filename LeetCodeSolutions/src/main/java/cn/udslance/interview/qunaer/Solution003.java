@@ -1,11 +1,10 @@
 package cn.udslance.interview.qunaer;
 
-
 /**
  * @author H
  * @create 2021-08-23 9:21
  */
-public class Solution003 {
+class Solution003 {
     /**
      * S[1..3n−2] (n≥2) 是一个半回文当且仅当它满足 S[i]=S[2n−i]=S[2n+i− 2] (1≤i≤n)
      * @param n ...

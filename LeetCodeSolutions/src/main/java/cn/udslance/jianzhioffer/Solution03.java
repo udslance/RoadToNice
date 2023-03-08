@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author H
  * @create 2021-05-09 10:04
  */
-public class Solution03 {
+class Solution03 {
 
     private static final Scanner SCANNER = new Scanner(System.in);
 

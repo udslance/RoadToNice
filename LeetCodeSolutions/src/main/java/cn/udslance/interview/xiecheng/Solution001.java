@@ -1,12 +1,10 @@
 package cn.udslance.interview.xiecheng;
 
-
-
 /**
  * @author H
  * @create 2021-08-23 9:21
  */
-public class Solution001 {
+class Solution001 {
 
     public void test() {
         long startTime = System.currentTimeMillis();

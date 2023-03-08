@@ -1,12 +1,10 @@
 package cn.udslance.jianzhioffer;
 
-
-
 /**
  * @author H
  * @create 2021-05-12 16:37
  */
-public class Solution09 {
+class Solution09 {
 
 
     int count = 0;

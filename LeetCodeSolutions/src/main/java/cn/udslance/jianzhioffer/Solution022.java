@@ -6,7 +6,7 @@ import cn.udslance.beans.ListNode;
  * @author H
  * @create 2021-08-23 9:21
  */
-public class Solution022 {
+class Solution022 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode fast = head;
         ListNode slow = head;

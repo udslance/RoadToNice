@@ -12,7 +12,6 @@ class MyStack {
     /** Initialize your data structure here. */
     public MyStack() {
         queue = new LinkedList<>();
-
     }
 
     /** Push element x onto stack. */
@@ -25,7 +24,6 @@ class MyStack {
         if (empty()) {
             return -1;
         }
-
         return queue.removeLast();
     }
 

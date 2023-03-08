@@ -6,7 +6,7 @@ import java.util.LinkedList;
  * @author H
  * @create 2021-05-10 11:04
  */
-public class Solution07 {
+class Solution07 {
 
     public static void main(String[] args) {
         int[] ints = {-2, 1, -3, 4, -1, 2, 1, -5, 4};

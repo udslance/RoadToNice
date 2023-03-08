@@ -1,12 +1,10 @@
 package cn.udslance.jianzhioffer;
 
-
-
 /**
  * @author H
  * @create 2021-05-12 15:13
  */
-public class Solution08 {
+class Solution08 {
 
     public void test() {
         int[] nums = {7,8,4,5,3,1,2,9};
