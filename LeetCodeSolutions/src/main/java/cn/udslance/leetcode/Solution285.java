@@ -6,7 +6,7 @@ import cn.udslance.beans.TreeNode;
  * @title: 二叉搜索树中的中序后继
  * @description:
  * @difficulty:
- * @Link: <a href="">...</a>
+ * @Link: <a href="">link</a>
  * @author: Udslance
  * @create: 2022-10-08 23:01
  **/

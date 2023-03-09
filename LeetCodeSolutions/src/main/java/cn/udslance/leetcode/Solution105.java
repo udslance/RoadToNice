@@ -8,7 +8,7 @@ import java.util.Map;
  * @title: 从前序与中序遍历序列构造二叉树
  * @description: 给定一个二叉树，找出其最大深度。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">link</a>
  * @author: Udslance
  * @create: 2022-09-25 22:38
  **/

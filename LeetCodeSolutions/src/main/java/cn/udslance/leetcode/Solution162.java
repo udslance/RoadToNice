@@ -2,7 +2,7 @@ package cn.udslance.leetcode;
 
 /**
  * 寻找峰值
- * <a href="https://leetcode-cn.com/problems/find-peak-element/">...</a>
+ * <a href="https://leetcode-cn.com/problems/find-peak-element/">link</a>
  * @author H
  * @create 2021-08-03 19:24
  */

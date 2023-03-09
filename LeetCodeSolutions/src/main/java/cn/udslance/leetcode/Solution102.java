@@ -9,7 +9,7 @@ import java.util.*;
 /**
  * @Title: 二叉树的层序遍历
  * @Difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/binary-tree-level-order-traversal/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/binary-tree-level-order-traversal/">link</a>
  * @author H
  *
  */

@@ -6,7 +6,7 @@ import cn.udslance.beans.TreeNode;
  * @title: 二叉树的最小深度
  * @description: 给定一个二叉树，找出其最小深度。
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/minimum-depth-of-binary-tree/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/minimum-depth-of-binary-tree/">link</a>
  * @author: Udslance
  * @create: 2022-10-17 22:59
  **/

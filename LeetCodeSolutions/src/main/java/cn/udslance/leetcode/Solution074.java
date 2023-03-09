@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @title: 搜索二维矩阵
  * @description: 编写一个高效的算法来判断 m x n 矩阵中，是否存在一个目标值。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/search-a-2d-matrix/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/search-a-2d-matrix/">link</a>
  * @author: Udslance
  * @create: 2022-10-09 23:11
  **/

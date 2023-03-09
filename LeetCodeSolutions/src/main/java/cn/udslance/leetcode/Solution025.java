@@ -6,7 +6,7 @@ import cn.udslance.beans.ListNode;
  * @title: K 个一组翻转链表
  * @description: 给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。
  * @difficulty: Hard
- * @Link: <a href="https://leetcode.cn/problems/reverse-nodes-in-k-group/description/?orderBy=most_votes">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/reverse-nodes-in-k-group/description/?orderBy=most_votes">link</a>
  * @author: Udslance
  * @create: 2023-03-05 21:10
  **/

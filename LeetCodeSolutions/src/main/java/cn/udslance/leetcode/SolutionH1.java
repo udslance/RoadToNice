@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * @Title:
  * @Difficulty:
- * @Link: <a href="">...</a>
+ * @Link: <a href="">link</a>
  * @author H
  *
  */

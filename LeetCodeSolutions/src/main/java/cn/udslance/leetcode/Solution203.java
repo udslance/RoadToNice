@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
  * @title: 移除链表元素
  * @description: 给你一个链表的头节点 head 和一个整数 val ，请你删除链表中所有满足 Node.val == val 的节点，并返回 新的头节点 。
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/remove-linked-list-elements/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/remove-linked-list-elements/">link</a>
  * @author: Udslance
  * @create: 2023-03-08 21:49
  **/

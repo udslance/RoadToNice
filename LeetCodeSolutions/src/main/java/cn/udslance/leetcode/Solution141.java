@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @Title: 环形链表
  * @Difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/linked-list-cycle/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/linked-list-cycle/">link</a>
  * @author H
  *
  */

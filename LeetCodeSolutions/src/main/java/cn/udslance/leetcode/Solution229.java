@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * @Title: 多数元素 II
  * @Difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/majority-element-ii/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/majority-element-ii/">link</a>
  * @author H
  *
  */

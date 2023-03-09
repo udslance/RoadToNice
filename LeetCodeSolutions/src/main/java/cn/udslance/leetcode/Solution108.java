@@ -6,7 +6,7 @@ import cn.udslance.beans.TreeNode;
  * @title: 将有序数组转换为二叉搜索树
  * @description: 给你一个整数数组nums，其中元素已经按升序排列，请你将其转换为一棵高度平衡二叉搜索树。
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/">link</a>
  * @author: Udslance
  * @create: 2022-09-25 23:16
  **/

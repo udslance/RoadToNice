@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 如果 h 有多种可能的值，h 指数 是其中最大的那个。
  * @Title: H 指数
  * @Difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/h-index/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/h-index/">link</a>
  * @author H
  *
  */

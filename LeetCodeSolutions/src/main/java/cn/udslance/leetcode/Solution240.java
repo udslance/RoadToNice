@@ -4,7 +4,7 @@ package cn.udslance.leetcode;
  * @title: 搜索二维矩阵 II
  * @description: 编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target 。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/search-a-2d-matrix-ii/description/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/search-a-2d-matrix-ii/description/">link</a>
  * @author: Udslance
  * @create: 2023-02-19 11:47
  **/

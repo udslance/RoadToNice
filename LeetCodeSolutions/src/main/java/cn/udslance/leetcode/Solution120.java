@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * 三角形最小路径和
- * <a href="https://leetcode-cn.com/problems/triangle/">...</a>
+ * <a href="https://leetcode-cn.com/problems/triangle/">link</a>
  * @author H
  * @create 2021-07-24 19:50
  */

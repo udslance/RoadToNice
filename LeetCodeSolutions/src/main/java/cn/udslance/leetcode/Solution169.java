@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 /**
  * 多数元素
- * <a href="https://leetcode.cn/problems/majority-element//">...</a>
+ * <a href="https://leetcode.cn/problems/majority-element//">link</a>
  * @author H
  * @create 2021-08-03 19:50
  */

@@ -8,7 +8,7 @@ import java.util.List;
  * @title: 顶端迭代器
  * @description: 请你在设计一个迭代器，在集成现有迭代器拥有的 hasNext 和 next 操作的基础上，还额外支持 peek 操作。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/peeking-iterator/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/peeking-iterator/">link</a>
  * @author: Udslance
  * @create: 2023-02-19 16:40
  **/

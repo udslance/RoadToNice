@@ -6,7 +6,7 @@ import cn.udslance.beans.TreeNode;
  * @title: 路径总和
  * @description: 给你二叉树的根节点 root 和一个表示目标和的整数 targetSum。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/path-sum/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/path-sum/">link</a>
  * @author: Udslance
  * @create: 2022-10-17 23:09
  **/

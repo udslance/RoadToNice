@@ -4,7 +4,7 @@ package cn.udslance.leetcode;
  * @title: 二维区域和检索 - 矩阵不可变
  * @description: 给定一个二维矩阵 matrix，以下类型的多个请求：
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/range-sum-query-2d-immutable/description/?orderBy=most_votes">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/range-sum-query-2d-immutable/description/?orderBy=most_votes">link</a>
  * @author: Udslance
  * @create: 2023-02-19 19:55
  **/

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * LRU 缓存机制
- * <a href="https://leetcode-cn.com/problems/lru-cache/">...</a>
+ * <a href="https://leetcode-cn.com/problems/lru-cache/">link</a>
  * @author H
  * @create 2021-07-29 10:10
  */

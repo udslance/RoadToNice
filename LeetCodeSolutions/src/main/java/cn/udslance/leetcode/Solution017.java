@@ -12,7 +12,7 @@ import java.util.Map;
  * @author H
  * @Title: 电话号码的字母组合
  * @Difficulty: Middle
- * @Link: <a href="https://leetcode.cn/problems/letter-combinations-of-a-phone-number/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/letter-combinations-of-a-phone-number/">link</a>
  */
 class Solution017 {
     static Logger logger = Logger.getLogger("");

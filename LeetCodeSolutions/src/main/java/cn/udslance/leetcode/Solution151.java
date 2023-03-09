@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @title: 反转字符串中的单词
  * @description: 给你一个字符串 s ，请你反转字符串中单词的顺序。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/reverse-words-in-a-string/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/reverse-words-in-a-string/">link</a>
  * @author: Udslance
  * @create: 2022-11-06 21:39
  **/

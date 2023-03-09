@@ -6,7 +6,7 @@ import cn.udslance.beans.ListNode;
  * @title: 删除链表中的节点
  * @description: 有一个单链表的 head，我们想删除它其中的一个节点 node。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/delete-node-in-a-linked-list/description/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/delete-node-in-a-linked-list/description/">link</a>
  * @author: Udslance
  * @create: 2023-02-19 11:20
  **/

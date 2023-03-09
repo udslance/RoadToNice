@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @title:
  * @description:
  * @difficulty:
- * @Link: <a href="">...</a>
+ * @Link: <a href="">link</a>
  * @author: Udslance
  * @create: 2023-02-22 22:47
  **/

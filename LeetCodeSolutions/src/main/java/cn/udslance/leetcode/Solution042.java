@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
  * @title: 接雨水
  * @description: 给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
  * @difficulty: Hard
- * @Link: <a href="https://leetcode.cn/problems/trapping-rain-water/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/trapping-rain-water/">link</a>
  * @author: Udslance
  * @create: 2023-03-05 11:53
  **/

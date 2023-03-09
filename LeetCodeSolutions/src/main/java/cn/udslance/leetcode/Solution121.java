@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @title: 买卖股票的最佳时机
  * @description: 买卖股票的最佳时机
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/">link</a>
  * @author: Udslance
  * @create: 2022-11-02 21:59
  **/

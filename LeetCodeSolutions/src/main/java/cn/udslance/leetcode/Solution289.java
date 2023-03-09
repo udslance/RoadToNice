@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 生命游戏
- * <a href="https://leetcode-cn.com/problems/game-of-life/">...</a>
+ * <a href="https://leetcode-cn.com/problems/game-of-life/">link</a>
  * @author H
  * @create 2021-08-23 9:21
  */

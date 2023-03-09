@@ -9,7 +9,7 @@ import java.util.List;
  * @title: 路径总和 II
  * @description: Medium
  * @difficulty: 给你二叉树的根节点 root 和一个整数目标和 targetSum ，找出所有 从根节点到叶子节点 路径总和等于给定目标和的路径。
- * @Link: <a href="https://leetcode.cn/problems/path-sum-ii/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/path-sum-ii/">link</a>
  * @author: Udslance
  * @create: 2022-10-16 17:19
  **/

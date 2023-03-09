@@ -11,7 +11,7 @@ import java.util.List;
  * @title: 子集 II
  * @description: 给你一个整数数组 nums ，其中可能包含重复元素，请你返回该数组所有可能的子集（幂集）。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/subsets-ii/description/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/subsets-ii/description/">link</a>
  * @author: Udslance
  * @create: 2022-10-16 11:40
  **/

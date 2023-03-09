@@ -4,7 +4,7 @@ package cn.udslance.leetcode;
  * @title: Excel 表列序号
  * @description: 给你一个字符串 columnTitle ，表示 Excel 表格中的列名称。返回 该列名称对应的列序号 。
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/excel-sheet-column-number/description/?orderBy=most_votes">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/excel-sheet-column-number/description/?orderBy=most_votes">link</a>
  * @author: Udslance
  * @create: 2022-11-10 22:19
  **/

@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @title: 分割回文串 II
  * @description: 给你一个字符串 s，请你将 s 分割成一些子串，使每个子串都是回文。返回符合要求的 最少分割次数 。
  * @difficulty: Hard
- * @Link: <a href="https://leetcode.cn/problems/palindrome-partitioning-ii/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/palindrome-partitioning-ii/">link</a>
  * @author: Udslance
  * @create: 2022-11-05 21:21
  **/

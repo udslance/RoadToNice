@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @Title: 最长公共前缀
  * @Difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/longest-common-prefix/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/longest-common-prefix/">link</a>
  * @author H
  *
  */

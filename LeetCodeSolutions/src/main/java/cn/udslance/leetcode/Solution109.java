@@ -10,7 +10,7 @@ import java.util.List;
  * @title: 有序链表转换二叉搜索树
  * @description: 给定一个单链表的头节点  head ，其中的元素 按升序排序 ，将其转换为高度平衡的二叉搜索树。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/">link</a>
  * @author: Udslance
  * @create: 2022-09-25 23:27
  **/

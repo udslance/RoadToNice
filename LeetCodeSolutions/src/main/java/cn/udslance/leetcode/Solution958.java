@@ -9,7 +9,7 @@ import java.util.Queue;
  * @title: 二叉树的完全性检验
  * @description: 给定一个二叉树的root，确定它是否是一个完全二叉树。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/check-completeness-of-a-binary-tree/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/check-completeness-of-a-binary-tree/">link</a>
  * @author: Udslance
  * @create: 2022-10-06 20:18
  **/

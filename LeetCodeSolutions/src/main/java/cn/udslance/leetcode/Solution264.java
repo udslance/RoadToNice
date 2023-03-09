@@ -4,7 +4,7 @@ package cn.udslance.leetcode;
  * @title: 丑数 II
  * @description: 给你一个整数 n ，请你找出并返回第 n 个 丑数 。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/ugly-number-ii/description/?orderBy=most_votes">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/ugly-number-ii/description/?orderBy=most_votes">link</a>
  * @author: Udslance
  * @create: 2023-02-19 12:19
  **/

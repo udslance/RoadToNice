@@ -9,7 +9,7 @@ import java.util.Map;
  * @title: 重复的DNA序列
  * @description: 给定一个表示 DNA序列 的字符串 s ，返回所有在 DNA 分子中出现不止一次的 长度为 10 的序列(子字符串)。你可以按 任意顺序 返回答案。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/repeated-dna-sequences/description/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/repeated-dna-sequences/description/">link</a>
  * @author: Udslance
  * @create: 2022-11-10 22:30
  **/

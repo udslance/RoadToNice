@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * @Title: 最接近的三数之和
  * @Difficulty:
- * @Link: <a href="https://leetcode.cn/problems/3sum-closest/submissions/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/3sum-closest/submissions/">link</a>
  * @author H
  *
  */

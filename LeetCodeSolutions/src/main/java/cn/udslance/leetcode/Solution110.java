@@ -6,7 +6,7 @@ import cn.udslance.beans.TreeNode;
  * @title: 平衡二叉树
  * @description: 给定一个二叉树，判断它是否是高度平衡的二叉树。
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/balanced-binary-tree/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/balanced-binary-tree/">link</a>
  * @author: Udslance
  * @create: 2022-10-06 20:40
  **/

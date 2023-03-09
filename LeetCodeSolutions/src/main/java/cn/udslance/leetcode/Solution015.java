@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @Title: 三数之和
  * @Difficulty: Middle
- * @Link: <a href="https://leetcode.cn/problems/3sum/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/3sum/">link</a>
  * @author H
  *
  */

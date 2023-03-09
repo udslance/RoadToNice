@@ -8,7 +8,7 @@ import java.util.Map;
  * @title: 从中序与后序遍历序列构造二叉树
  * @description: ……
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/">link</a>
  * @author: Udslance
  * @create: 2022-09-25 22:38
  **/

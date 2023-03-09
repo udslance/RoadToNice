@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /**
  * @Title: Z 字形变换
  * @Difficulty: middle
- * @Link: <a href="https://leetcode.cn/problems/zigzag-conversion/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/zigzag-conversion/">link</a>
  * @author H
  * @create 2021-08-23 9:21
  *

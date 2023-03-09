@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @Title: 字符串转换整数 (atoi)
  * @Difficulty: middle
- * @Link: <a href="https://leetcode.cn/problems/string-to-integer-atoi/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/string-to-integer-atoi/">link</a>
  * @author H
  * @create 2021-08-23 9:21
  *

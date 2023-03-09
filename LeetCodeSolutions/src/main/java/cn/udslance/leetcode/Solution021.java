@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  * @author H
  * @Title: 合并两个有序链表
  * @Difficulty: easy
- * @Link: <a href="https://leetcode.cn/problems/merge-two-sorted-lists/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/merge-two-sorted-lists/">link</a>
  */
 class Solution021 {
     static Logger logger = Logger.getLogger("");

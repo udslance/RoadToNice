@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @Title: 相交链表
  * @Difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/intersection-of-two-linked-lists/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/intersection-of-two-linked-lists/">link</a>
  * @author H
  *
  */

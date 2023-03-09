@@ -6,7 +6,7 @@ import cn.udslance.beans.TreeNode;
  * @title: 二叉搜索树的最近公共祖先
  * @description: 给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/">link</a>
  * @author: Udslance
  * @create: 2022-10-08 22:41
  **/

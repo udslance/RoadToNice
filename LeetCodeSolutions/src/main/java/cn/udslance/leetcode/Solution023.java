@@ -10,7 +10,7 @@ import java.util.List;
  * @title: 合并K个升序链表
  * @description: 给你一个链表数组，每个链表都已经按升序排列。
  * @difficulty: Hard
- * @Link: <a href="https://leetcode.cn/problems/merge-k-sorted-lists/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/merge-k-sorted-lists/">link</a>
  * @author: Udslance
  * @create: 2023-03-05 20:40
  **/

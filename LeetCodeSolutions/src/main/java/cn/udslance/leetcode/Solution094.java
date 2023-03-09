@@ -11,7 +11,7 @@ import java.util.List;
  * @title: 二叉树的中序遍历
  * @description: 给定一个二叉树的根节点 root ，返回 它的 中序 遍历 。
  * @difficulty: Easy
- * @Link: <a href="https://leetcode.cn/problems/binary-tree-inorder-traversal/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/binary-tree-inorder-traversal/">link</a>
  * @author: Udslance
  * @create: 2022-09-06 22:57
  **/

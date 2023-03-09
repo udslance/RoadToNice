@@ -3,7 +3,7 @@ package cn.udslance.leetcode;
 /**
  * @Title: 盛水最多的容器
  * @Difficulty: middle
- * @Link: <a href="https://leetcode.cn/problems/container-with-most-water/submissions/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/container-with-most-water/submissions/">link</a>
  * @author H
  *
  */

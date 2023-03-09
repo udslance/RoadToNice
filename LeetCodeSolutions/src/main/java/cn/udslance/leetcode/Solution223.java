@@ -4,7 +4,7 @@ package cn.udslance.leetcode;
  * @title: 矩形面积
  * @description: 给你 二维 平面上两个 由直线构成且边与坐标轴平行/垂直 的矩形，请你计算并返回两个矩形覆盖的总面积。
  * @difficulty: Medium
- * @Link: <a href="https://leetcode.cn/problems/rectangle-area/">...</a>
+ * @Link: <a href="https://leetcode.cn/problems/rectangle-area/">link</a>
  * @author: Udslance
  * @create: 2023-02-18 15:37
  **/

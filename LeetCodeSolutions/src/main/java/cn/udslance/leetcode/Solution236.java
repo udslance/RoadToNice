@@ -7,7 +7,7 @@ import cn.udslance.beans.TreeNode;
  * @description: 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
  * @difficulty: Medium
  * @Link:
- * <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/?orderBy=most_votes">...</a>
+ * <a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/?orderBy=most_votes">link</a>
  * @author: Udslance
  * @create: 2023-02-18 16:27
  **/
